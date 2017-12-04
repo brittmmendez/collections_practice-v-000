@@ -45,8 +45,8 @@ def add_s(array)
   new=[]
   array.each_with_index.collect do|element, index|
   if index!=1
-        array<<("#{element}s")
-  else array<<element
+        "#{element}s"
+
 
 end
 end
