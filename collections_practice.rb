@@ -35,10 +35,19 @@ def find_a(array)
 end
 
 def sum_array(array)
-  array.inject do |sum,a| sum+a end
+  array.inject do |sum,a| 
+    sum+a 
+  end
 end
 
+
 def add_s(array)
-  each_with_index.collect{|element, index|
+  new=[]
+  array.each_with_index.collect do|element, index|
+  if index!=1
+        new<<("#{element}s")
+      else new<<index
+
+end
 end
 end
