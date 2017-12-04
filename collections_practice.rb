@@ -48,7 +48,7 @@ def add_s(array)
   if index!=1
         new<<("#{element}s")
       else new<<index
- 
+
 end
 end
 end
