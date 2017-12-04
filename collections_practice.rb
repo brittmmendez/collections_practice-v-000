@@ -41,3 +41,4 @@ end
 def add_s(array)
   each_with_index.collect{|element, index|
 end
+end
